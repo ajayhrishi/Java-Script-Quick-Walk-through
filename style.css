@@ -14,3 +14,7 @@ body {
   font-weight: bold;
   font-family: "comic sans ms";
 }
+
+#Submit{background-color: green; font-weight: bold; font-family: "comic sans ms";} /* To edit the appearance of the Submit button
+*/ 
+#FirstName{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
