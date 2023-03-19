@@ -28,4 +28,13 @@ NumberOfPeople = (((NumberOfPeople-2)+5)-12);
 document.getElementById("A6").innerHTML=" There is the bus, 12 people left now. I could see "+NumberOfPeople+ " people in the room now";
 NumberOfPeople = NumberOfPeople*2;
 document.getElementById("A7").innerHTML="All the people in the room called their spouse for the party, now number of people are "+ NumberOfPeople;
+
+let Name1;
+document.getElementById("Submit").onclick=function(){
+    Name1 = document.getElementById("FirstName").value;
+    document.getElementById("A9").innerHTML = "The First Name you have enetered is " + Name1;
+
+}
+
+
 });
