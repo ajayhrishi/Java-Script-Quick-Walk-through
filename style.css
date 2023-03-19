@@ -1,12 +1,12 @@
 body {
-   background-color: skyblue;
+   background-color:rgb(230, 230, 222);
 }
 
-#H1,#H2 {
+.H{
   text-align: center;
   font-size: larger;
   font-weight: bolder;
-  background-color: bisque;
+  background-color: skyblue;
   font-family: "comic sans ms";
 }
 
