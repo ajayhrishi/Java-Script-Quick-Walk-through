@@ -1,0 +1,16 @@
+body {
+   background-color: skyblue;
+}
+
+#H1,#H2 {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: bisque;
+  font-family: "comic sans ms";
+}
+
+.A {
+  font-weight: bold;
+  font-family: "comic sans ms";
+}
