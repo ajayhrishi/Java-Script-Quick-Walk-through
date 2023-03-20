@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) { // to prevent the javascript code running before the HTML code. 
 
-console.log("If this line is visisble in the screen, then it mean my java scrip is working");
+console.log("If this line is visisble in the console, then it mean my java scrip is working");
 console.log("It seems it's working now. Yaaaay!");  // to give some outputs in the console which is not directly visible in the main page. 
 
 window.alert("this is the check if the alert function is working"); // to give the alert box while opening the page. 
