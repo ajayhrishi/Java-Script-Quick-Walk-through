@@ -14,7 +14,20 @@ body {
   font-weight: bold;
   font-family: "comic sans ms";
 }
+.R{
+  font-weight: bold;
+  font-family: "comic sans ms";
+  text-shadow: tomato;
+  color: rgb(94, 35, 35);
+
+}
 
 #Submit{background-color: green; font-weight: bold; font-family: "comic sans ms";} /* To edit the appearance of the Submit button
 */ 
 #FirstName{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
+
+.inputbox{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
+.inputbox:hover{background-color: rgb(241, 233, 233);}
+
+.button_style{background-color:  rgb(109, 168, 109);; font-weight: bold; font-family: "comic sans ms";}
+.button_style:hover{background-color: rgb(82, 155, 82);}
