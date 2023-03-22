@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) { // to prevent the javascript code running before the HTML code. 
 
 console.log("If this line is visisble in the console, then it mean my java scrip is working");
 console.log("It seems it's working now. Yaaaay!");  // to give some outputs in the console which is not directly visible in the main page. 
@@ -30,11 +29,9 @@ NumberOfPeople = NumberOfPeople*2;
 document.getElementById("A7").innerHTML="All the people in the room called their spouse for the party, now number of people are "+ NumberOfPeople;
 
 let Name1;
-document.getElementById("Submit").onclick=function(){
+document.getElementById("FirstNameIN").onclick=function(){
     Name1 = document.getElementById("FirstName").value;
     document.getElementById("A9").innerHTML = "The First Name you have enetered is " + Name1;
 
 }
 
-
-});

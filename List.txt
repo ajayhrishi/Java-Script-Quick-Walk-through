@@ -1,0 +1,6 @@
+1. Practise Day 1 -Index.HTML - used the Index page for doing the basics like input and outputs. Also, for the console outputs. Applied some CSS properties as well. 
+
+2. Practise Day 2 - Arithamatic-Expressions.html - Tested the arithmetic operation on the variables. 
+
+3. Practise Day 3 - Circle.html. A simple function to test out the const keyword. 
+4. Practise Day 3 - Tested the Math functions by creating a user-friendly webpage. Also, assigned the works to their respective folders. 
