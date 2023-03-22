@@ -78,24 +78,27 @@ document.getElementById("AbsoluteIn").onclick=function(){
 
 //-------------------------------------------
     
-document.getElementById("SmallIn").onclick=function(){
-    C1=document.getElementById("SmallTxt").value;
-    C2=document.getElementById("SmallTxt").value;
-    C3=document.getElementById("SmallTxt").value;
-    document.getElementById("SmallResult1").innerHTML=  "The Values you have entered is "+C1+", "+C2 + ", "+C3;
-    C1=Math.max(C1,C2,C3);
-    document.getElementById("SmallResult2").innerHTML="After round now it's value is "+C1;
 
-
-}
 
 document.getElementById("LargeIn").onclick=function(){
     C1=document.getElementById("Large1Txt").value;
     C2=document.getElementById("Large2Txt").value;
     C3=document.getElementById("Large3Txt").value;
     document.getElementById("LargeResult1").innerHTML= "The Values you have entered is "+C1+", "+C2 + ", "+C3;
-    C1= Math.min(C1);
-    document.getElementById("LargeResult2").innerHTML="After round now it's value is "+C1;
+    C1= Math.max(C1,C2,C3);
+    document.getElementById("LargeResult2").innerHTML="The largest Number among them is "+C1;
+
+
+}
+
+
+document.getElementById("SmallIn").onclick=function(){
+    C1=document.getElementById("Small1Txt").value;
+    C2=document.getElementById("Small2Txt").value;
+    C3=document.getElementById("Small3Txt").value;
+    document.getElementById("SmallResult1").innerHTML=  "The Values you have entered is "+C1+", "+C2 + ", "+C3;
+    C1 = Math.min(C1,C2,C3);
+    document.getElementById("SmallResult2").innerHTML="The smallest number among them is "+C1;
 
 
 }
