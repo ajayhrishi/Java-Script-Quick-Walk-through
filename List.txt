@@ -4,3 +4,5 @@
 
 3. Practise Day 3 - Circle.html. A simple function to test out the const keyword. 
 4. Practise Day 3 - Tested the Math functions by creating a user-friendly webpage. Also, assigned the works to their respective folders. 
+
+5. Practise Day 4 - Tested a simple function to find the lenght of the 3rd side of a triangle. 
