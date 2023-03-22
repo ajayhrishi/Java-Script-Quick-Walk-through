@@ -2,6 +2,11 @@ body {
    background-color:rgb(230, 230, 222);
 }
 
+.MH{text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  background-color: rgb(213, 235, 135);
+  font-family: "Arial";}
 .H{
   text-align: center;
   font-size: larger;
@@ -26,7 +31,7 @@ body {
 */ 
 #FirstName{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
 
-.inputbox{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
+.inputbox{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms"; width: 70px;}
 .inputbox:hover{background-color: rgb(241, 233, 233);}
 
 .button_style{background-color:  rgb(109, 168, 109);; font-weight: bold; font-family: "comic sans ms";}
