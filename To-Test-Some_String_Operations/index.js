@@ -35,25 +35,28 @@ document.getElementById("PositionInStringB").onclick=function(){
     
     document.getElementById("PositionInStringR2").innerHTML= "The letter "+v1+" is at the position "+mainstring.indexOf(v1);
 }
+
+//-----------------------------------------------------
+document.getElementById("LastPositionLetterInStringB").onclick=function(){
+
+    mainstring= document.getElementById("LastPositionLetterInString").value;
+    v1= document.getElementById("Position3").value;
+    document.getElementById("LastPositionLetterInStringR1").innerHTML= "The String Entered: "+mainstring+ 
+    "<br>The letter you have entered is: "+v1;
+    
+    document.getElementById("LastPositionLetterInStringR2").innerHTML= "The letter "+v1+" is lastly mentioned in the string at the position of "+mainstring.lastIndexOf(v1);
+
+}
+//-----------------------------------------------------
+document.getElementById("").onclick=function(){
+
+
+
+
+
+
+}
 /*
-//-----------------------------------------------------
-document.getElementById("").onclick=function(){
-
-
-
-
-
-
-}
-//-----------------------------------------------------
-document.getElementById("").onclick=function(){
-
-
-
-
-
-
-}
 //-----------------------------------------------------
 document.getElementById("").onclick=function(){
 
