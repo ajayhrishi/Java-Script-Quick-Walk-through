@@ -52,20 +52,26 @@ document.getElementById("ClearSpaceStringB").onclick=function(){
 
     mainstring= document.getElementById("ClearSpaceString").value;
     document.getElementById("ClearSpaceStringR1").innerHTML= "The String Entered: "+mainstring;
-    //document.getElementById("ClearSpaceStringR2").innerHTML= "After remove the spaces from the string now it is :"+ mainstring.trim();
+    //document.getElementById("ClearSpaceStringR2").innerHTML= "After remove the spaces from the string now it is :"+ (mainstring.trim());
     mainstring = mainstring.replaceAll(" ", "");
     document.getElementById("ClearSpaceStringR2").innerHTML= "After remove the spaces from the string now it is :"+mainstring;
 }
-/*
+
 //-----------------------------------------------------
-document.getElementById("").onclick=function(){
+document.getElementById("StringToUppercaseB").onclick=function(){
 
 
+    mainstring= document.getElementById("StringToUppercase").value;
+    document.getElementById("StringToUppercaseR1").innerHTML= "The String Entered: "+mainstring;
+
+
+    document.getElementById("StringToUppercaseR2").innerHTML= "After remove the spaces from the string now it is :"+(mainstring.toUpperCase());
 
 
 
 
 }
+/*
 //-----------------------------------------------------
 document.getElementById("").onclick=function(){
 
