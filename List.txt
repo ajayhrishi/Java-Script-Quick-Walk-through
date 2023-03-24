@@ -10,4 +10,10 @@
                   - Finished the function code for calculating the string length with the user inputs.
                   - Finished the function code for finding the letter in the position based on user inputs.
                   - Finished the function code for finding the position of letter based on user inputs. 
-                  
+                  - finished the function code for finding      
+                  - Made a function To find the position of a letter lastly mentioned in the string.
+                  - Made a function To remove the empty space in the string.
+                  - Made a function To convert a string to uppercase.
+                  - Made a function To convert a string to lowercase.
+                  - Made a function To remove a spefic letter from the string.
+                  - Made a function To replace a spefic letter from the string with another letter.

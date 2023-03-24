@@ -69,17 +69,18 @@ document.getElementById("RemoveLetterB").onclick=function(){
     mainstring= document.getElementById("RemoveLetter").value;
     v1= document.getElementById("Position6").value;
     document.getElementById("RemoveLetterR1").innerHTML= "The String Entered: "+mainstring +"<br>The Letter entered: "+v1;
-    document.getElementById("RemoveLetterR2").innerHTML= "After removing all the "+v1+" from the string it's now is: "+(mainstring.replaceAll(v1, ""));
+    document.getElementById("RemoveLetterR2").innerHTML= "After removing all the "+v1+" from the string, it's now is: "+(mainstring.replaceAll(v1, ""));
+}
+
+//-----------------------------------------------------
+document.getElementById("ReplaceLetterB").onclick=function(){
+
+    mainstring= document.getElementById("ReplaceLetter").value;
+    v1= document.getElementById("Position7").value;
+    v2= document.getElementById("Position8").value;
+    document.getElementById("ReplaceLetterR1").innerHTML= "The String Entered: "+mainstring +"<br> The letter wants to remove : "+v1+"<br>The letter wants to replace with: "+v2;
+                  mainstring=      mainstring.replaceAll(v1, v2);
+    document.getElementById("ReplaceLetterR2").innerHTML= "After placing all the "+v1+" with the "+v2+ "from the string, it's now is: "+mainstring;
 }
 /*
-//-----------------------------------------------------
-document.getElementById("").onclick=function(){
-
-
-
-
-
-
-}
-
 */
