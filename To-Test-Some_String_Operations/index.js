@@ -65,22 +65,21 @@ document.getElementById("StringToUppercaseB").onclick=function(){
     document.getElementById("StringToUppercaseR1").innerHTML= "The String Entered: "+mainstring;
 
 
-    document.getElementById("StringToUppercaseR2").innerHTML= "After remove the spaces from the string now it is :"+(mainstring.toUpperCase());
+    document.getElementById("StringToUppercaseR2").innerHTML= "After converting the string to upper case the string now is :"+(mainstring.toUpperCase());
+
+}
+
+//-----------------------------------------------------
+document.getElementById("StringToLowercaseB").onclick=function(){
+
+    mainstring= document.getElementById("StringToLowercase").value;
+    document.getElementById("StringToLowercaseR1").innerHTML= "The String Entered: "+mainstring;
 
 
-
-
+    document.getElementById("StringToLowercaseR2").innerHTML= "After converting the string to Lower case the string now is :"+(mainstring.toLowerCase());
+    
 }
 /*
-//-----------------------------------------------------
-document.getElementById("").onclick=function(){
-
-
-
-
-
-
-}
 //-----------------------------------------------------
 document.getElementById("").onclick=function(){
 
