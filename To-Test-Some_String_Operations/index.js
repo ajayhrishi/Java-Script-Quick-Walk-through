@@ -48,13 +48,13 @@ document.getElementById("LastPositionLetterInStringB").onclick=function(){
 
 }
 //-----------------------------------------------------
-document.getElementById("").onclick=function(){
+document.getElementById("ClearSpaceStringB").onclick=function(){
 
-
-
-
-
-
+    mainstring= document.getElementById("ClearSpaceString").value;
+    document.getElementById("ClearSpaceStringR1").innerHTML= "The String Entered: "+mainstring;
+    //document.getElementById("ClearSpaceStringR2").innerHTML= "After remove the spaces from the string now it is :"+ mainstring.trim();
+    mainstring = mainstring.replaceAll(" ", "");
+    document.getElementById("ClearSpaceStringR2").innerHTML= "After remove the spaces from the string now it is :"+mainstring;
 }
 /*
 //-----------------------------------------------------
