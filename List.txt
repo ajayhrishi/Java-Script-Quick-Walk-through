@@ -1,8 +1,13 @@
 1. Practise Day 1 -Index.HTML - used the Index page for doing the basics like input and outputs. Also, for the console outputs. Applied some CSS properties as well. 
-
 2. Practise Day 2 - Arithamatic-Expressions.html - Tested the arithmetic operation on the variables. 
-
 3. Practise Day 3 - Circle.html. A simple function to test out the const keyword. 
 4. Practise Day 3 - Tested the Math functions by creating a user-friendly webpage. Also, assigned the works to their respective folders. 
-
 5. Practise Day 4 - Tested a simple function to find the lenght of the 3rd side of a triangle. 
+6. Practise Day 5 - Tested a simple counter label function that can be adjusted with increase, decrease, and clear buttons. 
+7. Practise Day 6 - Making a page to do the string operations. 
+                  - Made a sperate CSS input box style to take single char user input from user.
+                  - Completed the front-end HTML with CSS and given the id and class to each element to make it work. 
+                  - Finished the function code for calculating the string length with the user inputs.
+                  - Finished the function code for finding the letter in the position based on user inputs.
+                  - Finished the function code for finding the position of letter based on user inputs. 
+                  
