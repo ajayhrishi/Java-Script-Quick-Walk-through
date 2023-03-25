@@ -9,4 +9,4 @@ console.log(firstname);   - Trying to put this code in single line.
 
 
 let firstname = FullName.slice( 0, FullName.indexOf(" ")).toUpperCase();
-console.log(firstname); 
+console.log(firstname);  
