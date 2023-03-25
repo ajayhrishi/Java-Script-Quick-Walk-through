@@ -17,4 +17,39 @@
                   - Made a function To convert a string to lowercase.
                   - Made a function To remove a spefic letter from the string.
                   - Made a function To replace a spefic letter from the string with another letter.
-8. Practise Day 7 - 
+8. Practise Day 7 - Tested the string slice methoad. 
+                  - Tested the methoad chaining. 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
