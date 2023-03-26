@@ -39,3 +39,11 @@ body {
 
 .inputboxN{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
 .inputboxN:hover{background-color: rgb(241, 233, 233);}
+
+pre{
+  font-weight: bold;
+  font-family: "comic sans ms";
+  text-shadow: tomato;
+  color: rgb(94, 35, 35);
+
+}

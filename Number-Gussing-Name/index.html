@@ -9,10 +9,17 @@
 </head>
 <body>
     <p class="MH">This page is for the number guessing game.</p>
-    <p class="R">Please enter a number between 1-50 to find the correct one behind the code.</p>
+    <p class="R" id="Tips">Please enter a number between 1-50 to find the correct one behind the code.<br>
+        <br> Tips:
+        <br> Slightly Larger or Lower   : actual value is within the range or 5.
+        <br> More or Less               : actual value within the range or 10.
+        <br> Too larger or Lower        : actul value within 20 range. 
+        <br> Not near                   : Actual Value is more than 20 range. 
+
+    </p> <br><br>
 <label class="R" for="input">Enter your guess here: </label>
 <input type="text" id="input" class="inputbox" maxlength="2" placeholder="Number">
-<button type="button" class="button_style">Submit</button>
+<button type="button" id="button" class="button_style">Submit</button>
 <p id="Result" class="R"></p>
     <script src="index.js"></script>
 </body>
