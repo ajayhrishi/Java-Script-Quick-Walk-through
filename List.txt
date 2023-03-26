@@ -1,64 +1,65 @@
+To learn JavaScript coding, I am going to try the tutorial video from the YouTube channel "Bro Code" and test the codes along with it on my end in different ways for a better understanding.
+Link to the video: https://www.youtube.com/watch?v=8dWL3wF_OMw
 
-Index
+Practice Day 1 - Index.HTML - used the Index page to do the basics, such as input and output, and console outputs. Applied some CSS properties as well.
+Practice Day 2 - Arithmetic-Expressions.html - tested the arithmetic operations on variables.
+Practice Day 3 - Circle.html - created a simple function to test out the const keyword.
+Practice Day 3 - tested the Math functions by creating a user-friendly webpage. Also, assigned the works to their respective folders.
+Practice Day 4 - tested a simple function to find the length of the third side of a triangle.
+Practice Day 5 - tested a simple counter label function that can be adjusted with increase, decrease, and clear buttons.
 
-       To learn the JS code, I am gonna try the tutorial video from the Youtube Channel "Bro Code" and try testing the codes along with it on my end in different ways for a better understanding. 
-        https://www.youtube.com/watch?v=8dWL3wF_OMw
+Practice Day 6 - made a page to do string operations. Already aware of the usage but going to practice again.
+- Made a separate CSS input box style to take single character user input from users.
+- Completed the front-end HTML with CSS and gave the id and class to each element to make it work.
+- Finished the function code for calculating the string length with user inputs.
+- Finished the function code for finding the letter in position 'x' based on user inputs.
+- Finished the function code for finding the position of a letter based on user inputs.
+- Finished the function code for finding the position of the lastly mentioned letter in the string.
+- Made a function to remove the empty space in the string.
+- Made a function to convert a string to uppercase.
+- Made a function to convert a string to lowercase.
+- Made a function to remove a specific letter from the string.
+- Made a function to replace a specific letter from the string with another letter.
 
-1. Practise Day 1 -Index.HTML - used the Index page for doing the basics like input and outputs. Also, for the console outputs. Applied some CSS properties as well. 
-2. Practise Day 2 - Arithamatic-Expressions.html - Tested the arithmetic operation on the variables. 
-3. Practise Day 3 - Circle.html. A simple function to test out the const keyword. 
-4. Practise Day 3 - Tested the Math functions by creating a user-friendly webpage. Also, assigned the works to their respective folders. 
-5. Practise Day 4 - Tested a simple function to find the lenght of the 3rd side of a triangle. 
-6. Practise Day 5 - Tested a simple counter label function that can be adjusted with increase, decrease, and clear buttons. 
-7. Practise Day 6 - Making a page to do the string operations. Already aware of the usage, but going to practise again.
-                  - Made a sperate CSS input box style to take single char user input from user.
-                  - Completed the front-end HTML with CSS and given the id and class to each element to make it work. 
-                  - Finished the function code for calculating the string length with the user inputs.
-                  - Finished the function code for finding the letter in the position 'x' based on user inputs.
-                  - Finished the function code for finding the position of letter based on user inputs. 
-                  - finished the function code for finding      
-                  - Made a function To find the position of a letter lastly mentioned in the string.
-                  - Made a function To remove the empty space in the string.
-                  - Made a function To convert a string to uppercase.
-                  - Made a function To convert a string to lowercase.
-                  - Made a function To remove a spefic letter from the string.
-                  - Made a function To replace a spefic letter from the string with another letter.
-8. Practise Day 7 - Tested the string slice methoad. 
-                  - Tested the methoad chaining in JS
-9. Practise Day 8 - Did not do much code, gone through the loops while, do while, and for in the bro code video 
-                    https://www.youtube.com/watch?v=8dWL3wF_OMw
-                  - Since already having more than enough experience on them, while learning the C++ not going to test the same syntax again. 
-                  - Gone through the functions. Already know the syntaxes. Not testing again. 
-                  - Already aware of Ternary Operator, Variable Scopes and template literals, and eString(). Not testing them again. 
-                  - Make a FAQ note for everything to do a quick revision. 
-9. Practise Day 9 - Number Gussing game at length 2:03:15 - Assingment. 
-                  - Practise program to convert the tempratur - 2:07:14 - Assignment. 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
-                  - 
+Practice Day 7 - tested the string slice method.
+- tested the method chaining in JS.
+
+Practice Day 8 - did not do much coding, went through the loops while, do-while, and for in the Bro Code video
+https://www.youtube.com/watch?v=8dWL3wF_OMw
+- Since I already have more than enough experience with them while learning C++, I am not going to test the same syntax again.
+- Went through the functions. Already know the syntaxes. Not testing them again.
+- Already aware of Ternary Operator, Variable Scopes and template literals, and eString(). Not testing them again.
+- Made a FAQ note for everything to do a quick revision.
+
+Practice Day 9 - Number Guessing game at 2:03:15 - Assignment - completed
+- Practice program to convert the temperature - 2:07:14 - Assignment - pending
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

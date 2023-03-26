@@ -7,7 +7,7 @@ document.getElementById("Tips").innerHTML=
 "Too larger or Lower          : Actual number within 20 range. <br>"+
 "Not near                       : Actual number is more than 20 range. <br>";
 numberofguess =0;
-number = 13;
+number = Math.round((Math.random()*50)+1);
 
 document.getElementById("button").onclick = function(){
 guess = parseInt(document.getElementById("input").value);
@@ -57,7 +57,7 @@ switch(true)
 
    default:
     number = Math.round((Math.random()*50)+1);
-    document.getElementById("Result").innerHTML= "This is the correct answer"+"<br> This is your "+numberofguess+" guess."+"Please enter a valid number between 1 and 50."+"<br>"+number;
+    document.getElementById("Result").innerHTML= "This is the correct answer"+"<br> This is your "+numberofguess+" guess."+"Please enter a valid number between 1 and 50."+"<br>";
     
     
 }
