@@ -31,35 +31,37 @@ https://www.youtube.com/watch?v=8dWL3wF_OMw
 - Already aware of Ternary Operator, Variable Scopes and template literals, and eString(). Not testing them again.
 - Made a FAQ note for everything to do a quick revision.
 
-Practice Day 9 - Number Guessing game at 2:03:15 - Assignment - completed
+Practice Day 9 - Number Guessing game at 2:03:15 - Assignment - pending 
 - Practice program to convert the temperature - 2:07:14 - Assignment - pending
+
+Practice Day 10 - Number Guessing game at 2:03:15 - Assignment - Completed now
+- Already aware about the array and the it's usage. Hence not testing it again. 
+- Already aware about the 2D arrays and it's usages. Hence not testing it again. 
+- Need to test the rest parameters in 2:35:00. 
+- Call back function methoad is already aware. Hence not testing it again. 
+- 3:07:00 Nested Function. 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+-  
 -
 -
 -
 -
 -
 -
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
+- Card shuffle - pending assignment.

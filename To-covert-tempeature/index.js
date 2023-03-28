@@ -1,0 +1,1 @@
+let dgr, faren;
