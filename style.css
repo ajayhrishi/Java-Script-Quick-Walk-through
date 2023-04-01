@@ -26,6 +26,13 @@ body {
  color: rgb(94, 35, 35);
 
 }
+.R2{
+  font-weight: bold;
+  font-family: "comic sans ms";
+  text-shadow: tomato;
+  color: rgb(87, 64, 168);
+ 
+ }
 
 #Submit{background-color: green; font-weight: bold; font-family: "comic sans ms";} /* To edit the appearance of the Submit button
 */ 
@@ -45,5 +52,10 @@ pre{
   font-family: "comic sans ms";
   text-shadow: tomato;
   color: rgb(94, 35, 35);
+
+}
+
+.radioButton_type{
+ border-radius: 2px;
 
 }

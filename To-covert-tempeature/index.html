@@ -9,18 +9,16 @@
 </head>
 <body>
     <p class="MH">This page is for the temperature converting tool</p>
-    <p class="H">Here, you can convert degrees Celsius to Fahrenheit</p>
-    <label class="R"> Please Enther the degrees Celsius temperature here. </label></p>
-        <input type="text" min="1" max="4" class="inputbox" id="degrees">
-        <button type="button" class="button_style" id="degreesIn">Submit</button>
-        <p class="R" id="degreesRe"></p>
+    <p class="H">Here, you can convert the temperature based on what option you choose.</p>
+    <label class="R"> Please Enther the temperature here. </label></p>
+        <input type="text" min="1" max="4" class="inputbox" id="inputtemp"> <br>
+        <label for="degree">Degree celcius</label>
+        <input type="radio" name="t" id="degree" class="radioButton_type"><br>
+        <input type="radio" name="t" id="Faren" class="radioButton_type"><br>
+        <button type="button" class="button_style" id="InputIn">Submit</button>
+        <p class="R" id="result"></p>
 
-    <p class="H">Here, you can convert Fahrenheit to degrees Celsius</p>
-    <label class="R"> Please Enther the Fahrenheit temperature here.</p></label>
-        <input type="text" min="1" max="4" class="inputbox" id="Fahrenheit">
-        <button type="button" class="button_style" id="FahrenheitIn">Submit</button>
 
-        <p class="R" id="FahrenheitRe"></p>
     <script src="index.js"></script>
 </body>
 </html>
