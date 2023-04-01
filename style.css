@@ -55,7 +55,7 @@ pre{
 
 }
 
-.radioButton_type{
- border-radius: 2px;
-
+.radiobutton:checked {
+  border-color: red;
+  background-color: blue;
 }
