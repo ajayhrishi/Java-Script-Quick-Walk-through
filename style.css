@@ -1,7 +1,8 @@
 body {
   background-color:rgb(230, 230, 222);
 }
-
+/*--------------------------------------------------------------------------------*/
+/*----------------------------Heading Styles-----------------------------------*/
 .MH{text-align: center;
  font-size: 70px;
  font-weight: bolder;
@@ -14,25 +15,10 @@ body {
  background-color: skyblue;
  font-family: "comic sans ms";
 }
+/*--------------------------------------------------------------------------------*/
+/*----------------------------Input box styles-------------------------------------*/
 
-.A {
- font-weight: bold;
- font-family: "comic sans ms";
-}
-.R{
- font-weight: bold;
- font-family: "comic sans ms";
- text-shadow: tomato;
- color: rgb(94, 35, 35);
 
-}
-.R2{
-  font-weight: bold;
-  font-family: "comic sans ms";
-  text-shadow: tomato;
-  color: rgb(87, 64, 168);
- 
- }
 
 #Submit{background-color: green; font-weight: bold; font-family: "comic sans ms";} /* To edit the appearance of the Submit button
 */ 
@@ -47,6 +33,9 @@ body {
 .inputboxN{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
 .inputboxN:hover{background-color: rgb(241, 233, 233);}
 
+
+/*--------------------------------------------------------------------------------*/
+/*----------------------------Text line style--------------------------------------*/
 pre{
   font-weight: bold;
   font-family: "comic sans ms";
@@ -55,7 +44,51 @@ pre{
 
 }
 
-.radiobutton:checked {
-  border-color: red;
-  background-color: blue;
-}
+.A {
+  font-weight: bold;
+  font-family: "comic sans ms";
+ }
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+.R{
+  font-weight: bold;
+  font-family: "comic sans ms";
+  text-shadow: tomato;
+  color: rgb(94, 35, 35);
+ 
+ }
+ .RB{ /*Result in Blue color */
+   font-weight: bold;
+   font-family: "comic sans ms";
+   text-shadow: tomato;
+   color: rgb(87, 64, 168);
+  
+  }
+ 
+  .RY{/*Result in yellow color */
+   font-weight: bold;
+   font-family: "comic sans ms";
+   text-shadow: tomato;
+   color: rgb(151, 175, 42);
+  
+  }
+ 
+  .RG{/*Result in Green color */
+   font-weight: bold;
+   font-family: "comic sans ms";
+   text-shadow: tomato;
+   color: rgb(151, 175, 42);
+  
+  }
+ 
+  .RR{/*Result in Red color */
+   font-weight: bold;
+   font-family: "comic sans ms";
+   text-shadow: tomato;
+   color: rgb(230, 35, 35);
+  
+  }
+
+  /*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
