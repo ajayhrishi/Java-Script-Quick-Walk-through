@@ -15,6 +15,13 @@ body {
  background-color: skyblue;
  font-family: "comic sans ms";
 }
+.sH{
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgb(135, 235, 157);
+  font-family: "comic sans ms";
+ }
 /*--------------------------------------------------------------------------------*/
 /*----------------------------Input box styles-------------------------------------*/
 
@@ -48,6 +55,22 @@ pre{
   font-weight: bold;
   font-family: "comic sans ms";
  }
+ .A_Y {
+  font-weight: bold;
+  font-family: "comic sans ms";
+  background-color: rgb(231, 231, 195);
+ }
+ .A_B {
+  font-weight: bold;
+  font-family: "comic sans ms";
+  background-color: rgb(172, 226, 230);
+ }
+ .A_R {
+  font-weight: bold;
+  font-family: "comic sans ms";
+  background-color: rgb(236, 170, 167);
+ }
+
 
 /*--------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------*/

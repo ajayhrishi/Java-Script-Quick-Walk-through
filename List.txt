@@ -45,11 +45,12 @@ Practice Day 11 - Have intiated a repository for Learning React
 Practice Day 12 - Have intiated a repository for Learning MySQL
 Practice Day 13 - Have covered the topics in Bro code till 4:40:35. 
 - Also, made a small program to test the try and catch methoad which was explained in duration 4:02:58
-- 
-- 
-- 
-- 
-- 
+Practice Day 14 - Made a page for testing the Try and Catch methoad. 
+Practice Day 15 - Made a page for Testing the setTimeout();
+Practice Day 16 - Made a Page for Testing the setInterval();
+Practice Day 17 - Made a page for Testing the DayFunctions, and tried making a live time out put using the SetInterval functions
+- Also, tested different getTime functions. 
+- Made functions for giving tag and formates for the time elements for a better output. 
 - 
 - 
 - 
