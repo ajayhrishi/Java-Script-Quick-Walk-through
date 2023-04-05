@@ -31,21 +31,21 @@ https://www.youtube.com/watch?v=8dWL3wF_OMw
 - Already aware of Ternary Operator, Variable Scopes and template literals, and eString(). Not testing them again.
 - Made a FAQ note for everything to do a quick revision.
 
-Practice Day 9 - Number Guessing game at 2:03:15 - Assignment - pending 
+Practice Day 9 - Number Guessing game at 2:03:15 - Assignment - pending
 - Practice program to convert the temperature - 2:07:14 - Assignment - pending
 
 Practice Day 10 - Number Guessing game at 2:03:15 - Assignment - Completed now
-- Already aware about the array and the it's usage. Hence not testing it again. 
-- Already aware about the 2D arrays and it's usages. Hence not testing it again. 
-- Need to test the rest parameters in 2:35:00. 
-- Call back function methoad is already aware. Hence not testing it again. 
-- 3:07:00 Nested Function. 
+- Already aware about the array and the it's usage. Hence not testing it again.
+- Already aware about the 2D arrays and it's usages. Hence not testing it again.
+- Need to test the rest parameters in 2:35:00.
+- Call back function methoad is already aware. Hence not testing it again.
+- 3:07:00 Nested Function.
 
 Practice Day 11 - Have intiated a repository for Learning React
 Practice Day 12 - Have intiated a repository for Learning MySQL
-Practice Day 13 - Have covered the topics in Bro code till 4:40:35. 
+Practice Day 13 - Have covered the topics in Bro code till 4:40:35.
 - Also, made a small program to test the try and catch methoad which was explained in duration 4:02:58
-Practice Day 14 - Made a page for testing the Try and Catch methoad. 
+Practice Day 14 - Made a page for testing the Try and Catch methoad.
 Practice Day 15 - Made a page for Testing the setTimeout();
 Practice Day 16 - Made a Page for Testing the setInterval();
 Practice Day 17 - Made a page for Testing the DayFunctions, and tried making a live time out put using the SetInterval functions

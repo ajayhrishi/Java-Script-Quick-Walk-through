@@ -13,20 +13,28 @@ document.getElementById("Date_now").onclick = function(){
     date = new Date();
     document.getElementById("resultDate_now").innerHTML =  "Captured: " +date;
     getfunctions();
+    document.getElementById("Better_Format").innerHTML = BetterTimeFrmt(date);
 }
 
-function getfunctions(){
+function getfunctions(){  // custom made function for getting each elements in order. 
     date = new Date();
     document.getElementById("getYear").innerHTML = "The Year: "+date.getFullYear();
-    document.getElementById("getMonth").innerHTML = "Month: " +(date.getMonth()+1)+" - "+MonthConvert((date.getMonth()+1));
+    document.getElementById("getMonth").innerHTML = "Month: " +Add0ToTime((date.getMonth()+1))+" - "+MonthConvert((date.getMonth()+1));
     document.getElementById("getDate").innerHTML = "Date: "+(date.getDate())+DateTag(date.getDate());
-    document.getElementById("getDay").innerHTML = "Day: "+(date.getDay()+1)+ " - "+DayConvert(date.getDay()+1);
-    document.getElementById("getHour").innerHTML = "Hour: "+AmOrPm(date.getHours());
-    document.getElementById("getMinute").innerHTML = "Minute: "+(date.getMinutes());
-    document.getElementById("getSecond").innerHTML = "Seconds: "+(date.getSeconds());
+    document.getElementById("getDay").innerHTML = "Day: "+Add0ToTime((date.getDay()+1))+ " - "+DayConvert(date.getDay()+1);
+    document.getElementById("getHour").innerHTML = "Hour: "+Add0ToTime(HourTo12(date.getHours()));
+    document.getElementById("getAmOrPm").innerHTML = "Am or PM: "+AmOrPm(date.getHours());
+    document.getElementById("getMinute").innerHTML = "Minute: "+Add0ToTime((date.getMinutes()));
+    document.getElementById("getSecond").innerHTML = "Seconds: "+Add0ToTime((date.getSeconds()));
+
 }
 
-
+function BetterTimeFrmt(time){ // custom made function for giving a better output for Time
+    let betterTime = Add0ToTime(HourTo12(time.getHours()))+":"+Add0ToTime((time.getMinutes()))+":"+Add0ToTime((time.getSeconds()))+AmOrPm(time.getHours())
+    +" - "+DayConvert(time.getDay()+1) +"<br>" +Add0ToTime( MonthConvert((time.getMonth()+1)))+" "+(time.getDate())+DateTag(time.getDate())
+    +", "+time.getFullYear();
+    return betterTime;
+}
 
 
 
@@ -134,11 +142,32 @@ function tagvaluefetch(date){
         let T_hour;
         if(hour>12)
         {
-            T_hour = (hour%12) + " Pm";
+            T_hour = " Pm";
         }
         else
         {
-            T_hour = hour + " Am";
+            T_hour = " Am";
         }
         return T_hour;
+    }
+
+    function HourTo12(hour)
+    {   let Hour12;
+        if(hour>12)
+        {
+            Hour12 = (hour%12);
+        }
+        else
+        {
+            Hour12=hour;
+        }
+        return Hour12;
+
+    }
+
+    function Add0ToTime(singledigit){
+        let digit = singledigit.toString();
+        if(digit.length<2)
+        digit = "0"+digit;
+        return digit;
     }
