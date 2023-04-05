@@ -1,4 +1,4 @@
-let date, liveTime;
+let date, liveTime, saveddate1;
 
 setInterval(livetime, 1000);
 function livetime(){
@@ -15,6 +15,16 @@ document.getElementById("Date_now").onclick = function(){
     getfunctions();
     document.getElementById("Better_Format").innerHTML = BetterTimeFrmt(date);
 }
+
+
+const updatedresult = document.getElementById("UpdatedTime");
+document.getElementById("StartEdit").onclick = function(){
+    saveddate1 = date;
+    updatedresult.innerHTML = saveddate1;
+    saveddate1 = date;
+    document.getElementById("SavedTime").innerHTML = "Saved";
+}
+
 
 function getfunctions(){  // custom made function for getting each elements in order. 
     date = new Date();
@@ -35,13 +45,6 @@ function BetterTimeFrmt(time){ // custom made function for giving a better outpu
     +", "+time.getFullYear();
     return betterTime;
 }
-
-
-
-
-
-
-
 
 
 /*------------------------------ Converting functions --------------------------------*/
@@ -111,7 +114,7 @@ function tagvaluefetch(date){
     return r;
    }
    /*-------This section is to convert the day to string---------*/
-   function DayConvert(DConvert)
+function DayConvert(DConvert)
    {
     let Day;
      switch(DConvert)
@@ -138,7 +141,7 @@ function tagvaluefetch(date){
 
     /*-------This section is to find the AM or PM tag for the hour---------*/
 
-    function AmOrPm(hour){
+function AmOrPm(hour){
         let T_hour;
         if(hour>12)
         {
@@ -148,10 +151,8 @@ function tagvaluefetch(date){
         {
             T_hour = " Am";
         }
-        return T_hour;
-    }
-
-    function HourTo12(hour)
+        return T_hour;}
+function HourTo12(hour)
     {   let Hour12;
         if(hour>12)
         {
@@ -164,10 +165,64 @@ function tagvaluefetch(date){
         return Hour12;
 
     }
-
-    function Add0ToTime(singledigit){
+function Add0ToTime(singledigit){
         let digit = singledigit.toString();
         if(digit.length<2)
         digit = "0"+digit;
         return digit;
     }
+
+    /* ---------------- Edit time functions ---------------------------*/
+
+document.getElementById("gettheYear").onclick = function ()
+{
+    let a = document.getElementById("SetupYear").value;
+    saveddate1.setFullYear(a);
+    updatedresult.innerHTML = saveddate1;
+
+}
+
+/* ------
+document.getElementById("getMonth").onclick = function ()
+{
+    let a = document.getElementById("SetMonth").value;
+    saveddate1.setMonth(a);
+    let b = saveddate1.toString();
+    updatedresult.innerHTML = b;
+}
+
+document.getElementById("getDate").onclick = function ()
+{
+    let a = document.getElementById("SetDate").value;
+    let b = saveddate1.toString();
+    updatedresult.innerHTML = b;
+}
+
+document.getElementById("getDay").onclick = function ()
+{
+    let a = document.getElementById("SetDay").value;
+    let b = saveddate1.toString();
+    updatedresult.innerHTML = b;
+}
+
+
+document.getElementById("getHour").onclick = function ()
+{
+    let a = document.getElementById("SetHour").value;
+    let b = saveddate1.toString();
+    updatedresult.innerHTML = b;
+}
+
+document.getElementById("getMinute").onclick = function ()
+{
+    let a = document.getElementById("SetMinute").value;
+    let b = saveddate1.toString();
+    updatedresult.innerHTML = b;
+}
+
+document.getElementById("getSecond").onclick = function ()
+{
+    let a = document.getElementById("SetSecond").value;
+    let b = saveddate1.toString();
+    updatedresult.innerHTML = b;
+}---------*/
