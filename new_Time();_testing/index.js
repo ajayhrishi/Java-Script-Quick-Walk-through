@@ -15,12 +15,12 @@ document.getElementById("Date_now").onclick = function(){
     getfunctions();
     document.getElementById("Better_Format").innerHTML = BetterTimeFrmt(date);
 }
-
+const errors = document.getElementById("Errors");
 
 const updatedresult = document.getElementById("UpdatedTime");
 document.getElementById("StartEdit").onclick = function(){
     saveddate1 = date;
-    updatedresult.innerHTML = saveddate1;
+    updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
     saveddate1 = date;
     document.getElementById("SavedTime").innerHTML = "Saved";
 }
@@ -106,7 +106,7 @@ function tagvaluefetch(date){
                 break;
        case 2 : r = "nd";
                 break;
-       case 3 : r = "3rd";
+       case 3 : r = "rd";
                 break;
        default:
         r ="th";
@@ -174,55 +174,92 @@ function Add0ToTime(singledigit){
 
     /* ---------------- Edit time functions ---------------------------*/
 
-document.getElementById("gettheYear").onclick = function ()
-{
-    let a = document.getElementById("SetupYear").value;
-    saveddate1.setFullYear(a);
-    updatedresult.innerHTML = saveddate1;
+    document.getElementById("gettheYear").onclick = function () {
+        let a = document.getElementById("SetupYear").value;
+        
+                saveddate1.setFullYear(a);
+                updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
+            }
+        
 
-}
-
-/* ------
-document.getElementById("getMonth").onclick = function ()
+document.getElementById("gettheMonth").onclick = function ()
 {
-    let a = document.getElementById("SetMonth").value;
+    let a = document.getElementById("SetUpMonth").value;
     saveddate1.setMonth(a);
     let b = saveddate1.toString();
-    updatedresult.innerHTML = b;
+    updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
 }
 
-document.getElementById("getDate").onclick = function ()
+document.getElementById("gettheDate").onclick = function ()
 {
-    let a = document.getElementById("SetDate").value;
+    let a = document.getElementById("SetupDate").value;
+    saveddate1.setDate(a);
     let b = saveddate1.toString();
-    updatedresult.innerHTML = b;
-}
-
-document.getElementById("getDay").onclick = function ()
-{
-    let a = document.getElementById("SetDay").value;
-    let b = saveddate1.toString();
-    updatedresult.innerHTML = b;
+    updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
 }
 
 
-document.getElementById("getHour").onclick = function ()
+
+document.getElementById("gettheHour").onclick = function ()
 {
-    let a = document.getElementById("SetHour").value;
+    let a = document.getElementById("SetupHour").value;
+    saveddate1.setHours(a);
     let b = saveddate1.toString();
-    updatedresult.innerHTML = b;
+    updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
 }
 
-document.getElementById("getMinute").onclick = function ()
+document.getElementById("gettheMinute").onclick = function ()
 {
-    let a = document.getElementById("SetMinute").value;
+    let a = document.getElementById("SetupMinute").value;
+    saveddate1.setMinutes(a);
     let b = saveddate1.toString();
-    updatedresult.innerHTML = b;
+    updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
 }
 
-document.getElementById("getSecond").onclick = function ()
+document.getElementById("gettheSecond").onclick = function ()
 {
-    let a = document.getElementById("SetSecond").value;
+    let a = document.getElementById("SetupSecond").value;
+    saveddate1.setSeconds(a);
     let b = saveddate1.toString();
-    updatedresult.innerHTML = b;
-}---------*/
+    updatedresult.innerHTML = BetterTimeFrmt(saveddate1);
+}
+/* -----For the Error Handling while using the Edit Time functions--
+
+function checkValidYear(v) {
+    let e = Number(v);
+    let c;
+    switch (true) {
+        case isNaN(e):
+            c = "Please enter a valid year";
+            break; 
+        case e < 0:
+            c = "You cannot enter a negative number as a year";
+            break; 
+        case v === "":
+            c = "You did not enter any years";
+            break; 
+        default: 
+            c = v;
+    }
+    if (c !== v) {
+        throw new Error(c);
+    }
+
+    return c;
+}
+
+function checkValidMonth(v){
+
+}
+
+function checkValidDate(v){
+
+}
+
+function checkValidHour(v){
+
+}
+
+function checkValid(v){
+
+}---*/

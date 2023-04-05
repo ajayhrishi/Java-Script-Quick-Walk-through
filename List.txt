@@ -51,9 +51,9 @@ Practice Day 16 - Made a Page for Testing the setInterval();
 Practice Day 17 - Made a page for Testing the DayFunctions, and tried making a live time out put using the SetInterval functions
 - Also, tested different getTime functions. 
 - Made functions for giving tag and formates for the time elements for a better output. 
-- 
-- 
-- 
+- Made functions for editing the year, month and date on the saved Date. 
+- Made functions for editing the Hour, minute and Seconds on the saved Date. 
+- The above codes are in no shape to handle the errors that can cause due to incorrect user inputs. Will add a proper Error handling methoad once I finish the full videos for JS in Bro Code youtube channel. 
 - 
 - 
 - 
