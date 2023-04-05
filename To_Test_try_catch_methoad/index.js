@@ -19,7 +19,7 @@ document.getElementById("input").onclick = function()
     {
         if(isNaN(Anumber)){
             result = "It was not a number that was entered by you.";
-            throw "It was not a number that was entered by you.";
+            throw "The truth is, It was not a number";
         }
         if(Anumber=="")
         {
