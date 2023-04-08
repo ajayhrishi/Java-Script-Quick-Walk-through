@@ -82,7 +82,7 @@ pre{
   font-weight: bold;
   font-family: "comic sans ms";
   text-shadow: tomato;
-  color: rgb(94, 35, 35);
+  color: rgb(97, 57, 57);
  
  }
  .RB{ /*Result in Blue color */
@@ -97,7 +97,7 @@ pre{
    font-weight: bold;
    font-family: "comic sans ms";
    text-shadow: tomato;
-   color: rgb(193, 196, 41);
+   color: rgb(182, 172, 30);
   
   }
  
@@ -105,15 +105,15 @@ pre{
    font-weight: bold;
    font-family: "comic sans ms";
    text-shadow: tomato;
-   color: rgb(138, 165, 17);
+   color: rgb(99, 119, 10);
   
   }
  
   .RR{/*Result in Red color */
    font-weight: bold;
    font-family: "comic sans ms";
-   text-shadow: tomato;
-   color: rgb(196, 52, 52);
+   text-shadow: rgb(180, 65, 45);
+   color: rgb(160, 45, 45);
   
   }
 
