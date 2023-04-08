@@ -60,11 +60,11 @@ Practice 18 - Today I am covering the Full video of the Bro code so I could star
 - 
 - 
 - 
--  
--
--
--
--
--
--
+- 
+- 
+- 
+- 
+- 
+- 
+- Need to test the rest parameters in 2:35:00.
 - Card shuffle - pending assignment.
