@@ -5,25 +5,25 @@ export function Create_R(idofIT) {
     p.setAttribute("id", idofIT);
     return p;
   }
-  export function Create_RB(idofIT) {
+export function Create_RB(idofIT) {
     let p = document.createElement("p");
     p.setAttribute("class", "RB");
     p.setAttribute("id", idofIT);
     return p;
   }
-  export function Create_RY(idofIT) {
+export function Create_RY(idofIT) {
     let p = document.createElement("p");
     p.setAttribute("class", "RY");
     p.setAttribute("id", idofIT);
     return p;
   }
-  export function Create_RG(idofIT) {
+export function Create_RG(idofIT) {
     let p = document.createElement("p");
     p.setAttribute("class", "RG");
     p.setAttribute("id", idofIT);
     return p;
   }
-  export function Create_RR(idofIT) {
+export function Create_RR(idofIT) {
     let p = document.createElement("p");
     p.setAttribute("class", "RR");
     p.setAttribute("id", idofIT);
@@ -60,6 +60,7 @@ export function Create_A_G(idofIT) {
   p.setAttribute("id", idofIT);
   return p;
 }
+
 /*----------------------Input Boxes------------------------------*/
 
 export function Create_inputbox(idofIT) {
@@ -81,7 +82,7 @@ export function Create_inputboxN(idofIT) {
 /*-------------------------------------------------------------------------------*/
 export function Use_Output(p1, templateliteral){
 
-    p1.textContent = templateliteral;
+    p1.innerHTML = templateliteral;
     document.body.appendChild(p1);
 }
 
