@@ -56,9 +56,7 @@ Practice Day 17 - Made a page for Testing the DayFunctions, and tried making a l
 - The above codes are in no shape to handle the errors that can cause due to incorrect user inputs. Will add a proper Error handling methoad once I finish the full videos for JS in Bro Code youtube channel. 
 Practice 18 - Today I am covering the Full video of the Bro code so I could start practising the uses soon. 
 - Added the Interactive Stop Watch to the pending assignment. 
-- 
-- 
-- 
+- Change of plans. I planning to make a extra JS sheet which has the functions that can create an output in the HTML file. I will import this file to each JS sheet that I am working and contole output within the JS sheet with less codes.
 - 
 - 
 - 
