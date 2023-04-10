@@ -58,7 +58,7 @@ Practice 18 - Today I am covering the Full video of the Bro code so I could star
 - Added the Interactive Stop Watch to the pending assignment. 
 - Change of plans. I planning to make a extra JS sheet which has the functions that can create an output in the HTML file. I will import this file to each JS sheet that I am working and contole output within the JS sheet with less codes.
 Practice Day 19 - I am still working on adding some more functions to create the Inputbox, Radio buttons and checkboxs button with CSS properties, to the JS modue.
-- 
+Practice Day 20 - finished creating the JS module for future practices 
 - 
 - 
 - 

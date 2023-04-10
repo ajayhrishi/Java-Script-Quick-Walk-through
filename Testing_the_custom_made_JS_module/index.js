@@ -107,8 +107,15 @@ OTjs.Create_brn();
 OTjs.Create_button("h", "hello");
 
 let TestingAG3 = OTjs.Create_A_G();
-OTjs.Use_Output(TestingAG3,`It seems like the function to create the input boxes and buttons is now working properly.`);}
+OTjs.Use_Output(TestingAG3,`It seems like the function to create the input boxes and buttons is now working properly.`);
+OTjs.Create_Checkbox("h");
+OTjs.Create_Checkbox("h");OTjs.Create_Checkbox("h");OTjs.Create_Checkbox("h");
+OTjs.Create_radiobutton("h", "name");
+OTjs.Create_radiobutton("h", "name");
+OTjs.Create_radiobutton("h", "name");
+}
 /*------------------*/
+
 /*------------------*/
 /*------------------*/
 /*------------------*/

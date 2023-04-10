@@ -29,6 +29,27 @@ export function Create_RR(idofIT) {
     p.setAttribute("id", idofIT);
     return p;
   }
+
+/*----The below functions are for creating heading elements ----------------*/
+  export function Create_MH(idofIT) {
+    let p = document.createElement("p");
+    p.setAttribute("class", "MH");
+    p.setAttribute("id", idofIT);
+    return p;
+  }
+
+  export function Create_H(idofIT) {
+    let p = document.createElement("p");
+    p.setAttribute("class", "H");
+    p.setAttribute("id", idofIT);
+    return p;
+  }
+  export function Create_sH(idofIT) {
+    let p = document.createElement("p");
+    p.setAttribute("class", "sH");
+    p.setAttribute("id", idofIT);
+    return p;
+  }
 /*-----To make different output lines with background colors------------------------------*/
 export function Create_A(idofIT) {
   let p = document.createElement("p");
@@ -79,6 +100,22 @@ export function Create_inputboxN(idofIT, placeholded) {
   p.setAttribute("id", idofIT);
   if (placeholded !=""){
     p.setAttribute("placeholder", placeholded);}
+  document.body.appendChild(p);
+  return p;
+}
+
+export function Create_radiobutton(idofIT, names) {
+  let p = document.createElement('input');
+  p.type = 'radio';
+  p.setAttribute("id", idofIT);
+  p.setAttribute("name", names);
+  document.body.appendChild(p);
+  return p;
+}
+export function Create_Checkbox(idofIT) {
+  let p = document.createElement('input');
+  p.type = 'checkbox';
+  p.setAttribute("id", idofIT);
   document.body.appendChild(p);
   return p;
 }
