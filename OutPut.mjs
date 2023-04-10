@@ -1,4 +1,4 @@
-/*-------------------------------------------------------------------------------*/
+/*----The below functions are for creating different R elements-----------------*/
 export function Create_R(idofIT) {
     let p = document.createElement("p");
     p.setAttribute("class", "R");
@@ -29,7 +29,7 @@ export function Create_RR(idofIT) {
     p.setAttribute("id", idofIT);
     return p;
   }
-/*-------------------------------------------------------------------------------*/
+/*-----To make different output lines with background colors------------------------------*/
 export function Create_A(idofIT) {
   let p = document.createElement("p");
   p.setAttribute("class", "A");
@@ -61,20 +61,27 @@ export function Create_A_G(idofIT) {
   return p;
 }
 
-/*----------------------Input Boxes------------------------------*/
+/*---------------To make Input Boxes------------------------------*/
 
-export function Create_inputbox(idofIT) {
-  const p = document.createElement('input');
+export function Create_inputbox(idofIT, placeholded) {
+  let p = document.createElement('input');
   p.type = 'text';
   p.setAttribute("class", "inputbox");
   p.setAttribute("id", idofIT);
+  if (placeholded !=""){
+    p.setAttribute("placeholder", placeholded);}
+  document.body.appendChild(p);
   return p;
 }
-export function Create_inputboxN(idofIT) {
+
+export function Create_inputboxN(idofIT, placeholded) {
   const p = document.createElement('input');
   p.type = 'text';
   p.setAttribute("class", "inputboxN");
   p.setAttribute("id", idofIT);
+  if (placeholded !=""){
+    p.setAttribute("placeholder", placeholded);}
+  document.body.appendChild(p);
   return p;
 }
 
@@ -86,10 +93,20 @@ export function Use_Output(p1, templateliteral){
     document.body.appendChild(p1);
 }
 
-
-
-
-
-
-
+/*--------------------To create new line between the elements-----------------------*/
+export function Create_brn(idofIT) {  
+  let p = document.createElement("pre");
+  p.setAttribute("id", idofIT);
+  p.setAttribute("style", "font-size: 1px");
+  p.innerHTML = "<br>";
+  document.body.appendChild(p);
+  return p;
+}
+export function Create_br(idofIT) {
+  let p = document.createElement("pre");
+  p.setAttribute("id", idofIT);
+  p.innerHTML = "<br>";
+  document.body.appendChild(p);
+  return p;
+}
 /*-------------------------------------------------------------------------------*/
