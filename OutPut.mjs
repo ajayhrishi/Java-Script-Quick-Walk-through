@@ -60,7 +60,6 @@ export function Create_A_G(idofIT) {
   p.setAttribute("id", idofIT);
   return p;
 }
-
 /*---------------To make Input Boxes------------------------------*/
 
 export function Create_inputbox(idofIT, placeholded) {
@@ -73,7 +72,6 @@ export function Create_inputbox(idofIT, placeholded) {
   document.body.appendChild(p);
   return p;
 }
-
 export function Create_inputboxN(idofIT, placeholded) {
   const p = document.createElement('input');
   p.type = 'text';
@@ -84,15 +82,11 @@ export function Create_inputboxN(idofIT, placeholded) {
   document.body.appendChild(p);
   return p;
 }
-
-
 /*-------------------------------------------------------------------------------*/
 export function Use_Output(p1, templateliteral){
-
     p1.innerHTML = templateliteral;
     document.body.appendChild(p1);
 }
-
 /*--------------------To create new line between the elements-----------------------*/
 export function Create_brn(idofIT) {  
   let p = document.createElement("pre");
@@ -109,4 +103,14 @@ export function Create_br(idofIT) {
   document.body.appendChild(p);
   return p;
 }
-/*-------------------------------------------------------------------------------*/
+/*-----------------Button makers------------------------*/
+
+export function Create_button(idofIt, label)
+{
+  let a = document.createElement('button');
+  a.setAttribute("id", idofIt);
+  a.setAttribute("class", "button_style");
+  a.innerHTML= label;
+  document.body.appendChild(a);
+  return a;
+}

@@ -62,8 +62,9 @@ OTjs.Use_Output(TestingAG2, `Great! Class .A_G CSS style Paragraph is also worki
 OTjs.Create_inputboxN("hello", "inputboxN function is working");
 OTjs.Create_brn();
 OTjs.Create_inputbox("asdf", "inputbox function is working");
-
+OTjs.Create_brn();
 /*------------------*/
+OTjs.Create_button("h", "hello");
 /*------------------*/
 /*------------------*/
 /*------------------*/
