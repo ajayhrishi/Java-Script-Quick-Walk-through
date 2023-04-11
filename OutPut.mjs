@@ -1,84 +1,136 @@
 /*----The below functions are for creating different R elements-----------------*/
-export function Create_R(idofIT) {
+export function Create_R(idofIT, templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "R");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
-export function Create_RB(idofIT) {
+export function Create_RB(idofIT,templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "RB");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
-export function Create_RY(idofIT) {
+export function Create_RY(idofIT, templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "RY");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
-export function Create_RG(idofIT) {
+export function Create_RG(idofIT, templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "RG");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
-export function Create_RR(idofIT) {
+export function Create_RR(idofIT,templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "RR");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
 
 /*----The below functions are for creating heading elements ----------------*/
-  export function Create_MH(idofIT) {
+  export function Create_MH(idofIT ,templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "MH");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
 
-  export function Create_H(idofIT) {
+  export function Create_H(idofIT,templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "H");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
-  export function Create_sH(idofIT) {
+  export function Create_sH(idofIT,templateliteral) {
     let p = document.createElement("p");
     p.setAttribute("class", "sH");
     p.setAttribute("id", idofIT);
+    document.body.appendChild(p);
+    if(templateliteral!=""){
+      document.getElementById(idofIT).innerHTML = templateliteral;
+    }
     return p;
   }
 /*-----To make different output lines with background colors------------------------------*/
-export function Create_A(idofIT) {
+export function Create_A(idofIT,templateliteral) {
   let p = document.createElement("p");
   p.setAttribute("class", "A");
   p.setAttribute("id", idofIT);
+  document.body.appendChild(p);
+  if(templateliteral!=""){
+    document.getElementById(idofIT).innerHTML = templateliteral;
+  }
   return p;
 }
-export function Create_A_Y(idofIT) {
+export function Create_A_Y(idofIT,templateliteral) {
   let p = document.createElement("p");
   p.setAttribute("class", "A_Y");
   p.setAttribute("id", idofIT);
+  document.body.appendChild(p);
+  if(templateliteral!=""){
+    document.getElementById(idofIT).innerHTML = templateliteral;
+  }
   return p;
 }
-export function Create_A_B(idofIT) {
+export function Create_A_B(idofIT ,templateliteral) {
   let p = document.createElement("p");
   p.setAttribute("class", "A_B");
   p.setAttribute("id", idofIT);
+  document.body.appendChild(p);
+  if(templateliteral!=""){
+    document.getElementById(idofIT).innerHTML = templateliteral;
+  }
   return p;
 }
-export function Create_A_R(idofIT) {
+export function Create_A_R(idofIT,templateliteral) {
   let p = document.createElement("p");
   p.setAttribute("class", "A_R");
   p.setAttribute("id", idofIT);
+  document.body.appendChild(p);
+  if(templateliteral!=""){
+    document.getElementById(idofIT).innerHTML = templateliteral;
+  }
   return p;
 }
-export function Create_A_G(idofIT) {
+export function Create_A_G(idofIT,templateliteral) {
   let p = document.createElement("p");
   p.setAttribute("class", "A_G");
   p.setAttribute("id", idofIT);
+  document.body.appendChild(p);
+  if(templateliteral!=""){
+    document.getElementById(idofIT).innerHTML = templateliteral;
+  }
   return p;
 }
 /*---------------To make Input Boxes------------------------------*/
@@ -124,6 +176,15 @@ export function Use_Output(p1, templateliteral){
     p1.innerHTML = templateliteral;
     document.body.appendChild(p1);
 }
+export function Use_Output_ID(p1, templateliteral){
+  document.getElementById(p1).innerHTML = templateliteral;
+}
+
+export function quickaccess(idofit){
+
+  let a = document.getElementById(idofit);
+  return a;
+}
 /*--------------------To create new line between the elements-----------------------*/
 export function Create_brn(idofIT) {  
   let p = document.createElement("pre");
@@ -151,3 +212,4 @@ export function Create_button(idofIt, label)
   document.body.appendChild(a);
   return a;
 }
+
