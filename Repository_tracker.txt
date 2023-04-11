@@ -64,5 +64,10 @@ Practice Day 21 - Added some more different style button maker function in the J
 - Updated the index page with the custom made JS module. 
 - Added an addition function in the custom made js sheet to create index elements with the hyper link attached to it.  (export function Create_index(i,name,link,id))
 - 
+
+
+
+
+
 - Need to test the rest parameters in 2:35:00.
 - Card shuffle - pending assignment.

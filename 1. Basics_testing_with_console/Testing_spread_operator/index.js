@@ -1,7 +1,8 @@
 import * as op from "../../OutPut.mjs"
 op.Create_MH("Mainhead",`This page is to test spread operator`);
-op.Create_sH("p1",`Using this page, I will be testing some basic usage of the spread operator in arrays`);
+op.Create_A_R("asdf", `To view the source code, Please open the JS Sheet`);
 
+op.Create_sH("p1",`Using this page, I will be testing some basic usage of the spread operator in arrays`);
 
 let array1, array2, array3;
 assigndefault();
@@ -20,10 +21,7 @@ let SortIncreasingbutton = op.quickaccess("sort");
 op.Create_buttonO("sortback", "Sort In decreasing order");
 let SortDecreasingbutton = op.quickaccess("sortback");
 
-
 arrayout();
-
-
 
 op.Create_A_G("array1", `In The Array1 largest number is:${Math.max(...array1)}`) ;
 op.Create_A_G("array2", `In The Array2  largest number is:${Math.max(...array2)}`) ;
@@ -40,10 +38,6 @@ op.Create_A(`Array1`,` Array1: ${[...array1]}` );
 op.Create_A(`Array2`,` Array2: ${[...array2]}` );
 op.Create_A(`Array3`,` Array3: ${[...array3]}` );}
 
-
-
-
-
 resetbutton.onclick= function(){assigndefault(); arrayout(); }
 
 reversebutton.onclick = function(){
@@ -56,9 +50,7 @@ SortIncreasingbutton.onclick = function(){
     array1.sort();
     array2.sort();
     array3.sort();
-    arrayout();
-
-}
+    arrayout();}
 
 SortDecreasingbutton.onclick = function(){
     array1.sort();
@@ -67,8 +59,7 @@ SortDecreasingbutton.onclick = function(){
     array1.reverse();
     array2.reverse();
     array3.reverse();
-    arrayout();
-}
+    arrayout();}
 
 function assigndefault(){
     array1= [2,34,53,42,465,23,83,54,12,123,234,543,634,353,50,23,56,467,123,432];

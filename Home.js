@@ -1,6 +1,7 @@
 import * as o from "./OutPut.mjs"
 
 o.Create_MH("m",  `JS Script Practice Repository.`);
+
 o.Create_R("1",  `This repository serves as a testing ground for various features of JS as a part of my study. Here, you can find all the works and practices that I have undertaken, which are neatly organized.`);
 o.Create_H("2", `Index`);
 
@@ -18,7 +19,7 @@ o.Create_index(10,`SetTimeout()_testing`,"./1. Basics_testing_with_console/SetTi
 o.Create_index(11,`Testing_Template_literals`," ./1. Basics_testing_with_console/Testing_Template_literals/index.html", "");o.br();
 o.Create_index(12,`Testing_the_promise_methoad`,"./1. Basics_testing_with_console/Testing_the_promise_methoad/index.html", "");o.br();
 o.Create_index(13,`Testing_toLocalString_uses `,"./1. Basics_testing_with_console/Testing_toLocalString_uses/index.html", "");o.br();
-
+o.Create_index(14,`Testing_spread_operator`,"./1. Basics_testing_with_console/Testing_spread_operator/index.html", "");o.br();
 
 /*o.Create_index( ,` `," ", "");o.br();
 o.Create_index( ,` `,"./1. Basics_testing_with_console/ /index.html", "");o.br();
