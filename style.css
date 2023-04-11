@@ -34,13 +34,20 @@ body {
 .inputbox{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms"; width: 70px;}
 .inputbox:hover{background-color: rgb(241, 233, 233);}
 
-.button_style{background-color:  rgb(109, 168, 109);; font-weight: bold; font-family: "comic sans ms";}
-.button_style:hover{background-color: rgb(82, 155, 82);}
-
 .inputboxN{background-color: rgb(223, 212, 212); font-weight: bold;font-family: "comic sans ms";}
 .inputboxN:hover{background-color: rgb(241, 233, 233);}
 
+/*----------------------------Button styles-------------------------------------*/
 
+
+.button_style{background-color:  rgb(109, 168, 109);; font-weight: bold; font-family: "comic sans ms";}
+.button_style:hover{background-color: rgb(82, 155, 82);}
+
+.button_styleO{background-color:  rgb(206, 155, 90);; font-weight: bold; font-family: "comic sans ms";}
+.button_styleO:hover{background-color: rgb(182, 149, 88);}
+
+.button_styleB{background-color:  rgb(99, 144, 180);; font-weight: bold; font-family: "comic sans ms";}
+.button_styleB:hover{background-color: rgb(75, 119, 148);}
 /*--------------------------------------------------------------------------------*/
 /*----------------------------Text line style--------------------------------------*/
 pre{
