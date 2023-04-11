@@ -59,10 +59,10 @@ Practice 18 - Today I am covering the Full video of the Bro code so I could star
 - Change of plans. I planning to make a extra JS sheet which has the functions that can create an output in the HTML file. I will import this file to each JS sheet that I am working and contole output within the JS sheet with less codes.
 Practice Day 19 - I am still working on adding some more functions to create the Inputbox, Radio buttons and checkboxs button with CSS properties, to the JS modue.
 Practice Day 20 - finished creating the JS module for future practices 
-- 
-- 
-- 
-- 
+Practice Day 21 - Added some more different style button maker function in the JS module 
+- Finished Testing the spread operator with array in variouse ways. 
+- Updated the index page with the custom made JS module. 
+- Added an addition function in the custom made js sheet to create index elements with the hyper link attached to it.  (export function Create_index(i,name,link,id))
 - 
 - Need to test the rest parameters in 2:35:00.
 - Card shuffle - pending assignment.

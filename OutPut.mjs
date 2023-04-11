@@ -205,7 +205,7 @@ export function quickaccess(idofit){
   return a;
 }
 /*--------------------To create new line between the elements-----------------------*/
-export function Create_brn(idofIT) {  
+export function br(idofIT) {  
   let p = document.createElement("pre");
   if(idofIT!=""){
   p.setAttribute("id", idofIT);}
@@ -252,4 +252,16 @@ export function Create_buttonO(idofIt, label)
   a.innerHTML= label;
   document.body.appendChild(a);
   return a;
+}
+
+/*---------------Index Element maker------------------------------*/
+
+export function Create_index(i,name,link,id)
+{
+  let a = document.createElement('a');
+  a.setAttribute("id", id)
+  a.setAttribute("class", "A_G");
+  a.setAttribute("href", link);
+  document.body.appendChild(a);
+  a.innerHTML = i + ". " +name;
 }
