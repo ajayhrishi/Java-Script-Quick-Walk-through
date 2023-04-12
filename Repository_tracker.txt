@@ -1,70 +1,243 @@
-To learn JavaScript coding, I am going to try the tutorial video from the YouTube channel "Bro Code" and test the codes along with it on my end in different ways for a better understanding.
-Link to the video: https://www.youtube.com/watch?v=8dWL3wF_OMw
+I am learning JavaScript coding by following the "Bro Code" YouTube channel tutorial. Here is a summary of my daily practices:
 
-Practice Day 1 - Index.HTML - used the Index page to do the basics, such as input and output, and console outputs. Applied some CSS properties as well.
-Practice Day 2 - Arithmetic-Expressions.html - tested the arithmetic operations on variables.
-Practice Day 3 - Circle.html - created a simple function to test out the const keyword.
-Practice Day 3 - tested the Math functions by creating a user-friendly webpage. Also, assigned the works to their respective folders.
-Practice Day 4 - tested a simple function to find the length of the third side of a triangle.
-Practice Day 5 - tested a simple counter label function that can be adjusted with increase, decrease, and clear buttons.
+Day 1: Basic HTML, input/output, and console outputs with some CSS properties.
 
-Practice Day 6 - made a page to do string operations. Already aware of the usage but going to practice again.
-- Made a separate CSS input box style to take single character user input from users.
-- Completed the front-end HTML with CSS and gave the id and class to each element to make it work.
-- Finished the function code for calculating the string length with user inputs.
-- Finished the function code for finding the letter in position 'x' based on user inputs.
-- Finished the function code for finding the position of a letter based on user inputs.
-- Finished the function code for finding the position of the lastly mentioned letter in the string.
-- Made a function to remove the empty space in the string.
-- Made a function to convert a string to uppercase.
-- Made a function to convert a string to lowercase.
-- Made a function to remove a specific letter from the string.
-- Made a function to replace a specific letter from the string with another letter.
+Day 2: Tested arithmetic operations on variables.
 
-Practice Day 7 - tested the string slice method.
-- tested the method chaining in JS.
+Day 3: Created a simple function to test out the const keyword and tested Math functions by creating a user-friendly webpage. Also, assigned works to their respective folders.
 
-Practice Day 8 - did not do much coding, went through the loops while, do-while, and for in the Bro Code video
-https://www.youtube.com/watch?v=8dWL3wF_OMw
-- Since I already have more than enough experience with them while learning C++, I am not going to test the same syntax again.
-- Went through the functions. Already know the syntaxes. Not testing them again.
-- Already aware of Ternary Operator, Variable Scopes and template literals, and eString(). Not testing them again.
-- Made a FAQ note for everything to do a quick revision.
+Day 4: Tested a function to find the length of the third side of a triangle.
 
-Practice Day 9 - Number Guessing game at 2:03:15 - Assignment - pending
-- Practice program to convert the temperature - 2:07:14 - Assignment - pending
+Day 5: Tested a simple counter label function that can be adjusted with increase, decrease, and clear buttons.
 
-Practice Day 10 - Number Guessing game at 2:03:15 - Assignment - Completed now
-- Already aware about the array and the it's usage. Hence not testing it again.
-- Already aware about the 2D arrays and it's usages. Hence not testing it again.
-- Need to test the rest parameters in 2:35:00.
-- Call back function methoad is already aware. Hence not testing it again.
-- 3:07:00 Nested Function.
+Day 6: Created a page to do string operations and functions to calculate the string length, finding the letter in position 'x', finding the position of a letter, finding the position of the lastly mentioned letter in the string, removing the empty space in the string, converting a string to uppercase, converting a string to lowercase, removing a specific letter from the string, and replacing a specific letter from the string with another letter.
 
-Practice Day 11 - Have intiated a repository for Learning React
-Practice Day 12 - Have intiated a repository for Learning MySQL
-Practice Day 13 - Have covered the topics in Bro code till 4:40:35.
-- Also, made a small program to test the try and catch methoad which was explained in duration 4:02:58
-Practice Day 14 - Made a page for testing the Try and Catch methoad.
-Practice Day 15 - Made a page for Testing the setTimeout();
-Practice Day 16 - Made a Page for Testing the setInterval();
-Practice Day 17 - Made a page for Testing the DayFunctions, and tried making a live time out put using the SetInterval functions
-- Also, tested different getTime functions. 
-- Made functions for giving tag and formates for the time elements for a better output. 
-- Made functions for editing the year, month and date on the saved Date. 
-- Made functions for editing the Hour, minute and Seconds on the saved Date. 
-- The above codes are in no shape to handle the errors that can cause due to incorrect user inputs. Will add a proper Error handling methoad once I finish the full videos for JS in Bro Code youtube channel. 
-Practice 18 - Today I am covering the Full video of the Bro code so I could start practising the uses soon. 
-- Added the Interactive Stop Watch to the pending assignment. 
-- Change of plans. I planning to make a extra JS sheet which has the functions that can create an output in the HTML file. I will import this file to each JS sheet that I am working and contole output within the JS sheet with less codes.
-Practice Day 19 - I am still working on adding some more functions to create the Inputbox, Radio buttons and checkboxs button with CSS properties, to the JS modue.
-Practice Day 20 - finished creating the JS module for future practices 
-Practice Day 21 - Added some more different style button maker function in the JS module 
-- Finished Testing the spread operator with array in variouse ways. 
-- Updated the index page with the custom made JS module. 
-- Added an addition function in the custom made js sheet to create index elements with the hyper link attached to it.  (export function Create_index(i,name,link,id))
+Day 7: Tested the string slice method and method chaining in JS.
+
+Day 8: Revised loops, functions, Ternary Operator, Variable Scopes, template literals, and eString(). Made a FAQ note for quick revision.
+
+Day 9: Pending assignments for the number guessing game and temperature conversion program.
+
+Day 10: Completed the number guessing game assignment. Tested rest parameters and nested functions.
+
+Day 11: Initiated a repository for Learning React.
+
+Day 12: Initiated a repository for Learning MySQL.
+
+Day 13: Covered the topics in Bro code till 4:40:35. Made a small program to test the try and catch method.
+
+Day 14: Made a page for testing the try and catch method.
+
+Day 15: Made a page for testing the setTimeout().
+
+Day 16: Made a page for testing the setInterval().
+
+Day 17: Made a page for testing the DayFunctions and tried making a live time output using the setInterval functions. Tested different getTime functions, made functions for giving tags and formats for time elements, and made functions for editing the year, month, date, hour, minute, and second on the saved date.
+
+Day 18: Covered the full video of the Bro code tutorial and added the Interactive Stop Watch to the pending assignment. Planned to make an extra JS sheet for controlling output within the JS sheet with fewer codes.
+
+Day 19: Worked on adding more functions to create Inputbox, Radio buttons, and checkbox button with CSS properties to the JS module.
+
+Day 20: Finished creating the JS module for future practices.
+
+Day 21: Added some more different style button maker function in the JS module, finished testing the spread operator with arrays, and updated the index page with the custom-made JS module. Added an additional function in the custom-made JS sheet to create index elements with the hyperlink attached to it.
+
+Day 22: Going to Quickly test all functions to finish Infosys' Springboard Data Structures and Algorithm video on JavaScript. This knowledge will enhance coding with user inputs. 
+- Tested the Rest parameter method in console now.
 - 
-
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 
 
