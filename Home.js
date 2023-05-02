@@ -36,3 +36,43 @@ o.Create_index(0,`Contional-Statements`,"./1. Basics_testing_with_console/Contio
 o.Create_index(0,`String-Slice-Methoad`,"./1. Basics_testing_with_console/String-Slice-Methoad/", "");o.br();
 o.Create_index(0,`To-count-the-surface-area-of-circle`,"./1. Basics_testing_with_console/To-count-the-surface-area-of-circle/", "");o.br();
 o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To-Test-methoad-chaining/", "");o.br();
+
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------*/
+o.Create_H("0","Pending works");
+o.Create_A_Y("11","1/31 Temprature converter");
+o.Create_A_Y("12","2/31 Add Shuffle array property to 'Testing_spread_operator' page. 3rd hour ");
+o.Create_A_Y("13","3/31 Testing new Map() 3rd hour");
+o.Create_A_Y("14","4/31 Testing Object with 'the' key word");
+o.Create_A_Y("15","5/31 Testing Class inheritance. 3:37:00");
+o.Create_A_Y("16","6/31 Testing get and set function in class. 3:50:00");
+o.Create_A_Y("17","7/31 Testing Object Array. 3:53:00");
+o.Create_A_Y("18","8/31 Add a clock in the webpage 4:24:00");
+o.Create_A_Y("19","9/31 Testing console.time() 4:31:28");
+o.Create_A_Y("20","10/31 Testing new Promise() 4:34:00");
+o.Create_A_Y("21","11/31 Testing async keyword 4:40:35");
+o.Create_A_Y("23","12/31 Testing await and async keywords 4:40:35");
+o.Create_A_Y("24","13/31 Testing .getElementsByName 4:51:24");
+o.Create_A_Y("25","14/31 Testing .getElementsByTagName 4:51:24");
+o.Create_A_Y("26","15/31 Testing .getElementsByClassName 4:51:24");
+o.Create_A_Y("27","16/31 Testing .querySelector() 4:51:24");
+o.Create_A_Y("28","17/31 Testing Element access methoads in DOM 5:03:00");
+o.Create_A_Y("29","18/31 Testing append, prepend list properties in DOM 5:09:00");
+o.Create_A_Y("30","19/31 Testing display properties in DOM 5:09:00");
+o.Create_A_Y("31","20/31 Testing all Events and actions in DOM 5:18:30");
+o.Create_A_Y("32","21/31 Testing AddEventListners in DOM 5:25:00");
+
+o.Create_A_Y("33","22/31 Testing detect the key presses 5:35:00");
+o.Create_A_Y("34","23/31 Testing creation of simple animations 5:40:28");
+o.Create_A_Y("35","24/31 Testing Canvas API 5:50:00");
+o.Create_A_Y("36","25/31 Testing window objects in DOM 6:02:44");
+o.Create_A_Y("37","26/31 Testing cookie. 6:09:00");
+
+o.Create_A_Y("38","27/31 Interactive Stop Watch. 6:23:10");
+o.Create_A_Y("39","28/31 Rock papers Scissors in JS. 6:35:21");
+o.Create_A_Y("40","29/31 XOX game. 6:47:00");
+o.Create_A_Y("41","30/31 Snake game. 7:05:00");
+o.Create_A_Y("42","31/31 Pong game using the JavaScript. 7:35:00");
