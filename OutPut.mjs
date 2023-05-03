@@ -147,6 +147,37 @@ export function Create_A_G(idofIT,templateliteral) {
   }
   return p;
 }
+
+export function Create_A_Label(idofIT,templateliteral,type) {
+  let p = document.createElement("label");
+  if("A"==type)
+  {p.setAttribute("class", "A");}
+  else if("A_Y"==type) {
+    p.setAttribute("class", "A_Y");
+  }
+  else if("A_B"==type) {
+    p.setAttribute("class", "A_B");
+  }
+  else if("A_B"==type) {
+    p.setAttribute("class", "A_B");
+  }
+  else if("A_R"==type) {
+    p.setAttribute("class", "A_R");
+  }
+  else if("A_G"==type) {
+    p.setAttribute("class", "A_G");
+  }
+  else{
+    p.setAttribute("class", "A");
+  }
+  if(idofIT!=""){
+  p.setAttribute("id", idofIT);}
+  document.body.appendChild(p);
+  if(templateliteral!=""){
+    document.getElementById(idofIT).innerHTML = templateliteral;
+  }
+  return p;
+}
 /*---------------To make Input Boxes------------------------------*/
 
 export function Create_inputbox(idofIT, placeholded) {
