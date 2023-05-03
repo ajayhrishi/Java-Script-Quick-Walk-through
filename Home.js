@@ -20,7 +20,7 @@ o.Create_index(11,`Testing_Template_literals`," ./1. Basics_testing_with_console
 o.Create_index(12,`Testing_the_promise_methoad`,"./1. Basics_testing_with_console/Testing_the_promise_methoad/index.html", "");o.br();
 o.Create_index(13,`Testing_toLocalString_uses `,"./1. Basics_testing_with_console/Testing_toLocalString_uses/index.html", "");o.br();
 o.Create_index(14,`Testing_spread_operator`,"./1. Basics_testing_with_console/Testing_spread_operator/index.html", "");o.br();
-
+o.Create_index(15,`Temperature Converter.`,"./To-convert-tempeature/index.html", "");o.br();
 /*o.Create_index( ,` `," ", "");o.br();
 o.Create_index( ,` `,"./1. Basics_testing_with_console/ /index.html", "");o.br();
 */
@@ -43,7 +43,6 @@ o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("11","1/31 Temprature converter");
 o.Create_A_Y("12","2/31 Add Shuffle array property to 'Testing_spread_operator' page. 3rd hour ");
 o.Create_A_Y("13","3/31 Testing new Map() 3rd hour");
 o.Create_A_Y("14","4/31 Testing Object with 'the' key word");
