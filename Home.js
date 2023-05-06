@@ -43,7 +43,6 @@ o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("12","2/31 Add Shuffle array property to 'Testing_spread_operator' page. 3rd hour ");
 o.Create_A_Y("13","3/31 Testing new Map() 3rd hour");
 o.Create_A_Y("14","4/31 Testing Object with 'the' key word");
 o.Create_A_Y("15","5/31 Testing Class inheritance. 3:37:00");

@@ -190,7 +190,7 @@ export function Create_inputbox(idofIT, placeholded) {
     p.setAttribute("placeholder", placeholded);}
   document.body.appendChild(p);
   return p;
-}
+}   
 export function Create_inputboxN(idofIT, placeholded) {
   const p = document.createElement('input');
   p.type = 'text';

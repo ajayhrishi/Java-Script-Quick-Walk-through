@@ -44,10 +44,11 @@ Day 21: Added some more different style button maker function in the JS module, 
 
 Day 22: Going to Quickly test all functions to finish Infosys' Springboard Data Structures and Algorithm video on JavaScript. This knowledge will enhance coding with user inputs. 
 - Tested the Rest parameter method in console now.
-- 
-- 
-- 
-- 
+
+Day 23 : Made index for the pending assignments
+- Created a Label function in the module JS file. 
+- Added the shuffle and random value assiging properties to the Spread operator testing page. 
+- Finished the temperature converter page. 
 - 
 - 
 - 
