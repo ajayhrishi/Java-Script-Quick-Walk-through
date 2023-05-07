@@ -38,14 +38,13 @@ o.Create_index(0,`String-Slice-Methoad`,"./1. Basics_testing_with_console/String
 o.Create_index(0,`To-count-the-surface-area-of-circle`,"./1. Basics_testing_with_console/To-count-the-surface-area-of-circle/", "");o.br();
 o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To-Test-methoad-chaining/", "");o.br();
 o.Create_index(0,`Testing_this_keyword`, "./1. Basics_testing_with_console/Testing_this_keyword/index.html");o.br();
+o.Create_index(0,`Testing_class_inheritance_with_super_keyword`, "./1. Basics_testing_with_console/Testing_class_inheritance/index.html");o.br();
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("14","4/31 Testing Object with 'the' key word");
-o.Create_A_Y("15","5/31 Testing Class inheritance. 3:37:00");
 o.Create_A_Y("16","6/31 Testing get and set function in class. 3:50:00");
 o.Create_A_Y("17","7/31 Testing Object Array. 3:53:00");
 o.Create_A_Y("18","8/31 Add a clock in the webpage 4:24:00");
