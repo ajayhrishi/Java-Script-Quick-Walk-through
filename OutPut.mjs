@@ -1,7 +1,7 @@
 /*----The below functions are for creating different R elements-----------------*/
-export function Create_R(idofIT, templateliteral) {
+export function Create_R(idofIT, templateliteral, cl ="R") {
     let p = document.createElement("p");
-    p.setAttribute("class", "R");
+    p.setAttribute("class", cl);
     if(idofIT!=""){
     p.setAttribute("id", idofIT);}
 
@@ -92,9 +92,9 @@ export function Create_RR(idofIT,templateliteral) {
     return p;
   }
 /*-----To make different output lines with background colors------------------------------*/
-export function Create_A(idofIT,templateliteral) {
+export function Create_A(idofIT,templateliteral,cl="A") {
   let p = document.createElement("p");
-  p.setAttribute("class", "A");
+  p.setAttribute("class", cl);
   if(idofIT!=""){
   p.setAttribute("id", idofIT);}
   document.body.appendChild(p);
@@ -148,28 +148,9 @@ export function Create_A_G(idofIT,templateliteral) {
   return p;
 }
 
-export function Create_A_Label(idofIT,templateliteral,type) {
+export function Create_A_Label(idofIT,templateliteral,typ="A") {
   let p = document.createElement("label");
-  if("A"==type)
-  {p.setAttribute("class", "A");}
-  else if("A_Y"==type) {
-    p.setAttribute("class", "A_Y");
-  }
-  else if("A_B"==type) {
-    p.setAttribute("class", "A_B");
-  }
-  else if("A_B"==type) {
-    p.setAttribute("class", "A_B");
-  }
-  else if("A_R"==type) {
-    p.setAttribute("class", "A_R");
-  }
-  else if("A_G"==type) {
-    p.setAttribute("class", "A_G");
-  }
-  else{
-    p.setAttribute("class", "A");
-  }
+  p.setAttribute("class", typ);
   if(idofIT!=""){
   p.setAttribute("id", idofIT);}
   document.body.appendChild(p);
@@ -227,7 +208,7 @@ export function Use_Output(p1, templateliteral){
     document.body.appendChild(p1);
 }
 export function Use_Output_ID(p1, templateliteral){
-  document.getElementById(p1).innerHTML = templateliteral;
+  document.getElementById(p1).innerText = templateliteral;
 }
 
 export function quickaccess(idofit){
