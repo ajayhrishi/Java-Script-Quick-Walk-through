@@ -49,7 +49,9 @@ Day 23 : Made index for the pending assignments
 - Created a Label function in the module JS file. 
 - Added the shuffle and random value assiging properties to the Spread operator testing page. 
 - Finished the temperature converter page. 
-- 
+Day 24 : Finished the new Map() Testing. 
+- Also, found the default Parameter Methoad. I need to improvise my Output.mjs module using this in the future. Made small changes now.
+
 - 
 - 
 - 

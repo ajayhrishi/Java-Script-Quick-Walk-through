@@ -21,6 +21,7 @@ o.Create_index(12,`Testing_the_promise_methoad`,"./1. Basics_testing_with_consol
 o.Create_index(13,`Testing_toLocalString_uses `,"./1. Basics_testing_with_console/Testing_toLocalString_uses/index.html", "");o.br();
 o.Create_index(14,`Testing_spread_operator`,"./1. Basics_testing_with_console/Testing_spread_operator/index.html", "");o.br();
 o.Create_index(15,`Temperature Converter.`,"./To-convert-tempeature/index.html", "");o.br();
+o.Create_index(16,`Testing the new Map()`,"./Testing_new_Map()", "");o.br();
 /*o.Create_index( ,` `," ", "");o.br();
 o.Create_index( ,` `,"./1. Basics_testing_with_console/ /index.html", "");o.br();
 */
@@ -36,14 +37,13 @@ o.Create_index(0,`Contional-Statements`,"./1. Basics_testing_with_console/Contio
 o.Create_index(0,`String-Slice-Methoad`,"./1. Basics_testing_with_console/String-Slice-Methoad/", "");o.br();
 o.Create_index(0,`To-count-the-surface-area-of-circle`,"./1. Basics_testing_with_console/To-count-the-surface-area-of-circle/", "");o.br();
 o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To-Test-methoad-chaining/", "");o.br();
-
+o.Create_index(0,`Testing_this_keyword`, "./1. Basics_testing_with_console/Testing_this_keyword/index.html");o.br();
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("13","3/31 Testing new Map() 3rd hour");
 o.Create_A_Y("14","4/31 Testing Object with 'the' key word");
 o.Create_A_Y("15","5/31 Testing Class inheritance. 3:37:00");
 o.Create_A_Y("16","6/31 Testing get and set function in class. 3:50:00");
