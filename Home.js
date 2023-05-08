@@ -39,13 +39,14 @@ o.Create_index(0,`To-count-the-surface-area-of-circle`,"./1. Basics_testing_with
 o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To-Test-methoad-chaining/", "");o.br();
 o.Create_index(0,`Testing_this_keyword`, "./1. Basics_testing_with_console/Testing_this_keyword/index.html");o.br();
 o.Create_index(0,`Testing_class_inheritance_with_super_keyword`, "./1. Basics_testing_with_console/Testing_class_inheritance/index.html");o.br();
+o.Create_index(0,`Testing_set_and_get_keywords_with_class`, "./1. Basics_testing_with_console/Testing_set_and_get_keywords/index.html");o.br();
+
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("16","6/31 Testing get and set function in class. 3:50:00");
 o.Create_A_Y("17","7/31 Testing Object Array. 3:53:00");
 o.Create_A_Y("18","8/31 Add a clock in the webpage 4:24:00");
 o.Create_A_Y("19","9/31 Testing console.time() 4:31:28");
