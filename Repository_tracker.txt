@@ -51,10 +51,10 @@ Day 23 : Made index for the pending assignments
 - Finished the temperature converter page. 
 Day 24 : Finished the new Map() Testing. 
 - Also, found the default Parameter Methoad. I need to improvise my Output.mjs module using this in the future. Made small changes now.
-
-- 
-- 
-- 
+Day 25 : 
+- Tested the get and set keywords with the class 
+- Tested the object arrays.
+Day 26 : Going throuhg the react topics
 - 
 - 
 - 

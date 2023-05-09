@@ -1,6 +1,6 @@
 import * as o from "../../OutPut.mjs"
 o.Create_MH("1","This page is to test the this keyword");
-o.Create_A("2","Feel free to check the console to see the output and check the JS sheet to view the source code.")
+
 
 const car1 = {
     color: "Blue", milage: "60 Km", power: "450 HP", Nitro: "Included",

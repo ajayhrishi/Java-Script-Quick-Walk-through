@@ -40,6 +40,7 @@ o.Create_index(0,`To-Test-methoad-chaining`,"./1. Basics_testing_with_console/To
 o.Create_index(0,`Testing_this_keyword`, "./1. Basics_testing_with_console/Testing_this_keyword/index.html");o.br();
 o.Create_index(0,`Testing_class_inheritance_with_super_keyword`, "./1. Basics_testing_with_console/Testing_class_inheritance/index.html");o.br();
 o.Create_index(0,`Testing_set_and_get_keywords_with_class`, "./1. Basics_testing_with_console/Testing_set_and_get_keywords/index.html");o.br();
+o.Create_index(0,`Testing_object_arrays`, "./1. Basics_testing_with_console/Testing_Object_array/index.html");o.br();
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
