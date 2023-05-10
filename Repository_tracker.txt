@@ -54,7 +54,7 @@ Day 24 : Finished the new Map() Testing.
 Day 25 : 
 - Tested the get and set keywords with the class 
 - Tested the object arrays.
-Day 26 : Going throuhg the react topics
+Day 26 : Going through the react topics
 - 
 - 
 - 

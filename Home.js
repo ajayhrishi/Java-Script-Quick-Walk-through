@@ -48,7 +48,6 @@ o.Create_index(0,`Testing_object_arrays`, "./1. Basics_testing_with_console/Test
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("17","7/31 Testing Object Array. 3:53:00");
 o.Create_A_Y("18","8/31 Add a clock in the webpage 4:24:00");
 o.Create_A_Y("19","9/31 Testing console.time() 4:31:28");
 o.Create_A_Y("20","10/31 Testing new Promise() 4:34:00");
