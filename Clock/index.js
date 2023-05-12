@@ -1,5 +1,5 @@
 
-
+console.time("response time"); 
 let date,month,year,day;
 let hour,Minute,seconds,AMorPM;
 setInterval(timerline,1000);
@@ -10,7 +10,7 @@ function timerline(){
         seconds=new Date().getSeconds();
 
         if(hour>12){hour=(hour%12);AMorPM="PM";}
-        else if(hour=0){
+        else if(hour==0){
             hour="12";AMorPM="AM";
         }
         else{
@@ -105,3 +105,5 @@ function daytag(day){
     else day=`${day}th`;
     return day;
 }
+
+console.timeEnd("response time");

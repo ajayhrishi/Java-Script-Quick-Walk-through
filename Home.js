@@ -22,6 +22,7 @@ o.Create_index(13,`Testing_toLocalString_uses `,"./1. Basics_testing_with_consol
 o.Create_index(14,`Testing_spread_operator`,"./1. Basics_testing_with_console/Testing_spread_operator/index.html", "");o.br();
 o.Create_index(15,`Temperature Converter.`,"./To-convert-tempeature/index.html", "");o.br();
 o.Create_index(16,`Testing the new Map()`,"./Testing_new_Map()", "");o.br();
+o.Create_index(17,`The Clock`,"./Clock/index.html", "");o.br();
 /*o.Create_index( ,` `," ", "");o.br();
 o.Create_index( ,` `,"./1. Basics_testing_with_console/ /index.html", "");o.br();
 */
@@ -48,7 +49,6 @@ o.Create_index(0,`Testing_object_arrays`, "./1. Basics_testing_with_console/Test
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 o.Create_H("0","Pending works");
-o.Create_A_Y("18","8/31 Add a clock in the webpage 4:24:00");
 o.Create_A_Y("19","9/31 Testing console.time() 4:31:28");
 o.Create_A_Y("20","10/31 Testing new Promise() 4:34:00");
 o.Create_A_Y("21","11/31 Testing async keyword 4:40:35");
