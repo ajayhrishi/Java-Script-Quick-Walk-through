@@ -55,6 +55,8 @@ Day 25 :
 - Tested the get and set keywords with the class 
 - Tested the object arrays.
 Day 26 : Going through the react topics
+
+Day 27 : Made the first Hello world React app after setting up the Node JS.
 - 
 - 
 - 
