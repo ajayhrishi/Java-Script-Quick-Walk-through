@@ -57,7 +57,7 @@ Day 25 :
 Day 26 : Going through the react topics
 
 Day 27 : Made the first Hello world React app after setting up the Node JS.
-- 
+Day 28 : Going through the React Properties, folder structure and Props.
 - 
 - 
 - 
